@@ -1,0 +1,63 @@
+.ant-drawer-header {
+    padding: 16px 12px !important;
+    border: none !important
+}
+
+.ant-drawer-header-title {
+    flex-direction: row-reverse;
+}
+
+.ant-drawer-close {
+    margin-inline-end: -4px !important;
+    margin-top: -14px;
+    color: black !important
+}
+
+.ant-tree-treenode {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ant-tree-indent {
+    display: none;
+}
+
+.ant-tree-treenode-switcher-close {
+    flex-direction: row-reverse;
+}
+
+.ant-tree-treenode-switcher-open {
+    flex-direction: row-reverse;
+}
+
+.ant-drawer-body {
+    padding: 0 !important;
+}
+
+.ant-menu-item-selected {
+    background: none !important;
+}
+
+.ant-menu-submenu-title {
+    padding: 0 16px !important;
+}
+
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #7A5AF8 !important;
+    border: 1px solid#7A5AF8 !important;
+}
+
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+    background-color: #7a5af8 !important;
+    border: 1px solid #7a5af8 !important;
+}
+
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner,
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+    border-color: #7A5AF8 !important;
+}
+
+.custom-checkbox .ant-checkbox-inner::after {
+    background-color: #7A5AF8 !important;
+}
