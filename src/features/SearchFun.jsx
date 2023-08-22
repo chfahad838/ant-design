@@ -7,13 +7,13 @@ const SearchFun = () => {
     const fetchApi = () => {
         fetch(`https://jsonplaceholder.typicode.com/users?q=${searchQuery}`)
             .then(response => response.json())
-            .then(data => setApiData(data))  // Wrap the data in an array since you're mapping over an array
+            .then(data => setApiData(data))
             .catch(error => console.log(error));
     }
 
-    useEffect(() => {
-        fetchApi();
-    }, [searchQuery]);
+    // useEffect(() => {
+    //     fetchApi();
+    // }, [searchQuery]);
 
     const handleSubmit = (e) => {
         e.preventDefault();  // Prevent the default form submission behavior
@@ -32,7 +32,7 @@ const SearchFun = () => {
                 <button type="submit">Search</button>
             </form>
             {apiData.map((d, i) => (
-                <p key={i}>{`(${i})`} {d.email}</p>
+                <p key={i}>{`(${d.id})`} {d.email}</p>
             ))}
         </div>
     );
