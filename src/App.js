@@ -22,15 +22,15 @@ function App() {
         gap: "2rem",
       }}
     >
-      {/* <SimplePieChart />
+      <SimplePieChart />
       <ApexPieChart />
       <ApaxBarChart />
       <SideBarChart />
+      <AntDesign />
       <SimpleLineChart />
       <LineChart />
       <MultiBarChart />
-      <AntAreaChart /> */}
-      <AntDesign />
+      <AntAreaChart />
     </div>
   );
 }

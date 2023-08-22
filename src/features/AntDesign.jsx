@@ -24,7 +24,7 @@ const AntDesign = () => {
   };
 
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", flexDirection: 'column', gap: "3rem"}}>
+    <div>
       <Button type="primary" onClick={showDrawer} style={{backgroundColor: "black"}}>
         Open drawer
       </Button>

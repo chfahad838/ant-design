@@ -11,6 +11,9 @@ const SimplePieChart = () => {
       dataLabels: {
         enabled: false
       },
+      stroke: {
+        show: false,
+      },
       colors: ["#FFDF44", "#30A6E2", "#AAD79B", "#E26057"],
       labels: ['Not interested', 'Offer rejected', 'Not available', 'Other'],
       responsive: [{
