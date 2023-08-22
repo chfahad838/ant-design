@@ -8,6 +8,7 @@ import SimpleLineChart from "./features/SimpleLineChart";
 import LineChart from "./features/LineChart";
 import MultiBarChart from './features/MultiBarChart'
 import AntAreaChart from './features/AntAreaChart'
+import SearchFun from './features/SearchFun'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <LineChart />
       <MultiBarChart />
       <AntAreaChart />
+      <SearchFun/>
     </div>
   );
 }
